@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Grades</title>
+
+<!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/font.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--CSS end-->
+
+</head>
+
+<body>
+	
+    <div class="input-form">
+    	<form>
+        	<div class="form-header">
+            	<h2>Grades</h2>
+                <p>This program prompt a user for a score between 0.0 and 1.0. E.g, 0.9 or 0.6</p>
+            </div>
+            <div class="form-group">
+            	<label>Enter a number between 0.0 and 1.0 :</label>
+                <input type="text" id="num" class="form-control" name="fnumb" placeholder="Enter number" autocomplete="off" required>
+            </div>
+            <div class="small">Click button below for results</div><br>
+            <div class="form-group">
+            	<button type="submit" class="btn btn-primary btn-block btn-lg" name="submit" onclick="grades()">Click Me</button>
+            </div>
+            <p id="txt"></p>
+        </form>
+    </div>
+    
+    
+     
+    <script type="text/javascript" src="js/grades.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
